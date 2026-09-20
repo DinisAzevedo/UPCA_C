@@ -11,3 +11,5 @@ void main()
     printf("area = %.2f\n", a);
     printf("perimetro = %.2f\n", p);
 }
+
+//.\Retangulo\Retangulo.exe
