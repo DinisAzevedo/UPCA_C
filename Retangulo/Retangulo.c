@@ -12,4 +12,5 @@ void main()
     printf("perimetro = %.2f\n", p);
 }
 
-//.\Retangulo\Retangulo.exe
+/* gcc .\Retangulo\Retangulo.c -o .\Retangulo\Retangulo.exe
+.\Retangulo\Retangulo.exe */

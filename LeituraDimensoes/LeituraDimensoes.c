@@ -14,12 +14,13 @@ int main(void)
     a = l1 * l2;
 
     // Perimetro
-    p = 2 * (l1 + l2);
+    p = (l1 + l2) * 2;
 
     printf("Area = %.2f\n", a);
-    printf("perimetro = %.2f\n", p);
+    printf("Perimetro = %.2f\n", p);
 
     return 0;
 }
 
-// .\LeituraDimensoes\LeituraDimensoes.exe
+/* gcc .\LeituraDimensoes\LeituraDimensoes.c -o .\LeituraDimensoes\LeituraDimensoes.exe
+.\LeituraDimensoes\LeituraDimensoes.exe */
