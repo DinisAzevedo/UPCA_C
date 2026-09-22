@@ -1,7 +1,5 @@
 # Programas em C
 
-Este projeto contem tres programas independentes. Os comandos abaixo devem ser executados no PowerShell, a partir da pasta raiz do projeto:
-
 ```powershell
 cd C:\Users\Dinis\UPCA_C
 ```
@@ -38,7 +36,3 @@ gcc .\Calculadora\Calculadora.c -o .\Calculadora\Calculadora.exe
 ```
 
 Introduza os valores pedidos. Para executar novamente sem alterar o codigo, basta usar o segundo comando de cada secao.
-
-## Executar pelo VS Code
-
-No VS Code, abra **Run and Debug**, escolha **Executar Calculadora** e carregue em iniciar. Esta configuracao recompila automaticamente a calculadora antes de a executar.
