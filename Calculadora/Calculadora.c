@@ -19,19 +19,12 @@ int main(void)
     soma = v1 + v2;
     mult = v1 * v2;
     sub = v1 - v2;
+    div = v1 / v2;
 
     printf("Soma: %.2f\n", soma);
     printf("Multiplicacao: %.2f\n", mult);
     printf("Subtracao: %.2f\n", sub);
-    if (v2 != 0.0f)
-    {
-        div = v1 / v2;
-        printf("Divisao: %.2f\n", div);
-    }
-    else
-    {
-        printf("Divisao: impossivel dividir por zero\n");
-    }
+    printf("Divisao: %.2f\n", div);
 
     return 0;
 }
