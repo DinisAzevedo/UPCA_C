@@ -21,6 +21,3 @@ int main(void)
 
     return 0;
 }
-
-/* gcc .\LeituraDimensoes\LeituraDimensoes.c -o .\LeituraDimensoes\LeituraDimensoes.exe
-.\LeituraDimensoes\LeituraDimensoes.exe */
