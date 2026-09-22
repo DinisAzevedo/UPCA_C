@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar Calculadora",
+      "type": "process",
+      "command": "gcc",
+      "args": [
+        "${workspaceFolder}/Calculadora/Calculadora.c",
+        "-o",
+        "${workspaceFolder}/Calculadora/Calculadora.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

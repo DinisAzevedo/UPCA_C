@@ -2,12 +2,24 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch",
-      "type": "lldb",
+      "name": "Executar Calculadora",
+      "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceRoot}/<your program>",
+      "program": "${workspaceFolder}/Calculadora/Calculadora.exe",
       "args": [],
-      "cwd": "${workspaceRoot}"
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "${workspaceFolder}/Calculadora",
+      "preLaunchTask": "Compilar Calculadora",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     },
     {
       "name": "C/C++ Runner: Debug Session",
